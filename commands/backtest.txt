@@ -1,0 +1,1 @@
+docker-compose run --rm freqtrade backtesting --config user_data/config-live.json --strategy CombinedBinHAndClucV5--timerange 20210402-20210509 -i 5m --export trades --export-filename=backtest_samplestrategy.json
